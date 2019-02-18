@@ -1,23 +1,26 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Steven Champagne">
-    <title>P1: User Research</title>
 
-    <link href="../vendor/bootstrap/bootstrap.css" rel="stylesheet">
-    <link href="../css/index.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Steven Champagne">
+  <title>P1: User Research</title>
 
-    <!-- Custom styles for this template -->
-    <link href="../css/navbar-top-fixed.css" rel="stylesheet">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <link href="../vendor/bootstrap/bootstrap.css" rel="stylesheet">
+  <link href="../css/index.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../css/navbar-top-fixed.css" rel="stylesheet">
+
+  <!-- GOOGLE DOCS CSS -->
+  <link rel="stylesheet" href="../vendor/googledocs/p1.css">
+</head>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <a class="navbar-brand" href="#">Group 42</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -43,9 +46,366 @@
 
 <main role="main" class="container">
   <div class="jumbotron">
-    <h1>Things go here later</h1>
-    <p class="lead">lorem</p>
-    <a class="btn btn-lg btn-primary" href="#" role="button">lorem &raquo;</a>
+
+    <body class="c15">
+      <h1 class="c10" id="h.bpi4kjzdwsds"><span class="c13">Project 1: Project Proposal and User Research</span></h1>
+      <h2 class="c8" id="h.ej98huy55k0f"><span class="c9">Part 1A: Identify Project Idea</span></h2>
+      <p class="c6"><span class="c3">Our project idea is a simple unit converter mobile app, supporting manual input to
+          convert all basic units of measure for length, time, temperature, weight, etc., with additional
+          functionality. Specifically, the user would also be able to take a photo with their phone camera, and our
+          app would retrieve text from the photo as a string, use that string to identify the units used, and convert
+          the units automatically. </span></p>
+      <p class="c6 c7"><span class="c3"></span></p>
+      <p class="c6"><span class="c3">This system can be used in many contexts: for example, users may need to convert
+          miles to kilometres on street signs while travelling, cups to fluid ounces in a recipe, inches to
+          centimetres to check knitting gauge, and so on. For our users, we will place the most emphasis on those who
+          may use it more frequently, such as home chefs, craft enthusiasts, frequent travellers, etc. However,
+          ultimately, this system can be used by anyone, since we have all needed to convert some sort of measurement
+          before in our lives.</span></p>
+      <p class="c6 c7"><span class="c3"></span></p>
+      <p class="c6"><span class="c14">We aim for this app to be available to our users whenever they need it. More often
+          than not, in our daily lives, we don&rsquo;t expect to encounter unfamiliar measurements. This is especially
+          true in Canada, where the relatively recent metrification of units has left us understanding some
+          measurements better than others based on context (e.g. distance is almost always in kilometres, but most
+          Canadians know their own height in feet and inches). As such, we intend for this to be a mobile app. This
+        </span><span>will allow our user base to have the application available to them for use at a moment&rsquo;s
+          notice, since we now live in a society where smartphones are fairly ubiquitous.</span></p>
+      <p class="c6 c7"><span class="c3"></span></p>
+      <h2 class="c8" id="h.gkwbh2wpnuan"><span class="c9">Part 1B: Identify Stakeholders</span></h2>
+      <p class="c6"><span class="c3">The primary stakeholders in this instance are the users of the app, however, that
+          includes a broad range of people. For instance, an older person using the app to convert measurements for
+          cooking may be unfamiliar with common app design standards, while a contractor or engineer who may need to
+          make conversions frequently will desire flexibility to make conversions more efficiently or easily. As such,
+          it is critical that our design be simple and easy to read, while incorporating intuitive and easy-to-use
+          shortcuts or customizability.</span></p>
+      <p class="c6"><span class="c3">Additionally, we acknowledge that there may be additional stakeholders who are not
+          users, but may have reasons to be interested in our system. As such, we will consider three main stakeholder
+          groups in our design:<br></span></p>
+      <ul class="c2 lst-kix_vbex3gozbk1w-0 start">
+        <li class="c1"><span class="c3">The older or more inexperienced user. This application could be very useful to
+            older users, since it will have the capability to perform conversions automatically. Many older
+            individuals are also hobbyists, so our application could appeal to them as well. For these users, it
+            will be important to have a simple interface with clearly labelled UI elements and concise instructions
+            where necessary, in order to foster a simple, hassle-free experience with our system.<br></span></li>
+        <li class="c1"><span class="c3">The younger or more technologically-savvy user. This encompasses most of our
+            target user base of crafters, contractors, bakers, and other hands-on individuals who are already
+            interested in using technology for their projects. We will assume that these users will have some
+            experience using mobile applications, particularly ones with camera functionality (e.g. Snapchat). As
+            such, it will be important to create an aesthetically pleasing interface that accomplishes the task of
+            unit conversion quickly for these users.<br></span></li>
+        <li class="c1"><span class="c3">Other system developers. These could be developers of rival apps (see Secondary
+            Research below), or developers of systems that would benefit from integrating unit conversion. For
+            example, it may be useful for the developer of a recipes application to have a unit converter available.
+            As such, we would need to be mindful of the fact that other developers may be looking at this system
+            with the intent of developing a rival application, or even incorporating our system into their own
+            application. We will assume that these individuals are highly skilled &amp; knowledgeable of system
+            design already - as such, it will be important to conform to industry standards for mobile application
+            design.</span></li>
+      </ul>
+      <h2 class="c8" id="h.nlk1k289t0ee"><span class="c9">Part 2A: User Research - Secondary Research</span></h2>
+      <h3 class="c4" id="h.crt73nm32tm1"><span class="c5">Justification of Method:</span></h3>
+      <p class="c6"><span class="c3">Our team selected secondary research to determine what other similar solutions
+          exist
+          in an attempt to understand what users want from applications in this domain. We believe this method is a
+          good choice because we can gain more useful information from the real marketplace, such as if a currently
+          available application is successful, and if it has design flaws from self exploration of the application,
+          and/or user comments about the application. We can also observe users interacting with those similar
+          products, since we cannot demonstrate designs at this stage of our project for our own designs as we do not
+          have a detailed design for our application yet. Additionally, we chose this method to determine what can
+          realistically be implemented to inform our design choices by explicitly observing what can be done. As
+          aforementioned, we wish for our application to conform to industry standards in order to cater to our third
+          stakeholder group; thus, we are using this investigation method in order to capture ideas for what is being
+          done well, or what can be done better. Furthermore, since this is not a research project, and we are
+          implementing an existing technology, we believe learning from previous attempts to solve the problems
+          associated with this domain is a good place to start. Finally, this methodology allows us to understand the
+          design space in a market context to determine which features the users really want rather than relying on
+          their advice or our own potentially flawed intuition. We believe this method will allow us to develop strong
+          opinions of what design decisions should be made.</span></p>
+      <p class="c6 c7"><span class="c3"></span></p>
+      <h3 class="c4" id="h.mvzcgaivzqyu"><span class="c5">App 1: Camverter</span></h3>
+      <p class="c6"><span>Available at </span><span class="c11"><a class="c12"
+            href="https://www.google.com/url?q=https://play.google.com/store/apps/details?id%3Dorg.camverter.app%26hl%3Den&amp;sa=D&amp;ust=1550463503296000">https://play.google.com/store/apps/details?id=org.camverter.app&amp;hl=en</a></span>
+      </p>
+      <p class="c6 c7"><span class="c3"></span></p>
+      <ul class="c2 lst-kix_xv14vhs3px1j-0 start">
+        <li class="c1"><span class="c3">Camera capture requires good lighting and camera resolution, or not all digits
+            may be captured properly</span></li>
+        <li class="c1"><span class="c3">Camera capture frequently takes longer than simply selecting units and typing
+            them manually</span></li>
+        <li class="c1"><span class="c3">Limited selection of units to convert from</span></li>
+        <li class="c1"><span class="c3">App design in minimalist, but may be confusing to use for someone unfamiliar
+            with standard icon meanings</span></li>
+      </ul>
+      <p class="c6 c7"><span class="c3"></span></p>
+      <h3 class="c4" id="h.7t58wscszxmq"><span class="c5">App 2: Unit Converter</span></h3>
+      <p class="c6"><span>Available at </span><span class="c11"><a class="c12"
+            href="https://www.google.com/url?q=https://play.google.com/store/apps/details?id%3Dkr.sira.unit&amp;sa=D&amp;ust=1550463503298000">https://play.google.com/store/apps/details?id=kr.sira.unit</a></span>
+      </p>
+      <p class="c6 c7"><span class="c3"></span></p>
+      <ul class="c2 lst-kix_ezkoyrddfema-0 start">
+        <li class="c1"><span class="c3">Units are divided into 4 distinct supergroups, to more easily select the ones
+            needed</span></li>
+        <li class="c1"><span class="c3">Includes sound effects, but no option to disable (other than muting phone
+            volume)</span></li>
+        <li class="c1"><span class="c3">Application loads quickly, making it more appealing to use</span></li>
+        <li class="c1"><span class="c3">Advertising is located unobtrusively</span></li>
+      </ul>
+      <p class="c6 c7"><span class="c3"></span></p>
+      <h3 class="c4" id="h.93972amkf1g8"><span class="c5">App 3: Unit Converter (2)</span></h3>
+      <ul class="c2 lst-kix_832rugcwaa27-0 start">
+        <li class="c1"><span class="c3">Extraneous link to web version of converter, which seems unneeded</span></li>
+        <li class="c1"><span class="c3">App does not show formula, which may be useful</span></li>
+        <li class="c1"><span class="c3">On some conversion categories, the app has 2 separate buttons that bring up
+            different units to convert from/to, but behave identically. Could be condensed</span></li>
+        <li class="c1"><span class="c3">Popup advertisement immediately upon opening - potentially confusing and slows
+            down functionality</span></li>
+      </ul>
+      <h3 class="c4" id="h.5r9didtckjfr"><span class="c5">App 4: Quick Unit Converter</span></h3>
+      <ul class="c2 lst-kix_441sp9uwedfy-0 start">
+        <li class="c1"><span class="c3">Unit supergroups are located on horizontally sliding bar, which is not readily
+            apparent</span></li>
+      </ul>
+      <h3 class="c4" id="h.gchzqyglkscb"><span class="c5">App 5: Unit Converter (Smart Tools)</span></h3>
+      <ul class="c2 lst-kix_6pp3uiszfenw-0 start">
+        <li class="c1"><span class="c3">Good functionality in terms of selection of units and speed of use</span></li>
+        <li class="c1"><span class="c3">Occasional popup advertisements</span></li>
+      </ul>
+      <h3 class="c4" id="h.wb8mswwurnsg"><span class="c5">App 6: Cooking Converter</span></h3>
+      <ul class="c2 lst-kix_d3csj9qkxode-0 start">
+        <li class="c1"><span class="c3">App uses unlabelled icons to denote unit supergroups, which may not be obvious
+            to all users</span></li>
+        <li class="c1"><span class="c3">Does not have any settings for customization/accessibility</span></li>
+        <li class="c1"><span class="c3">Popup advertisement upon opening app</span></li>
+      </ul>
+      <h3 class="c4" id="h.j1c5xyk9diqr"><span class="c5">App 7: Smart Unit Converter</span></h3>
+      <p class="c6"><span class="c3">By Sathwara Infotech</span></p>
+      <p class="c6 c7"><span class="c3"></span></p>
+      <ol class="c2 lst-kix_mn6nljkiwruf-0 start" start="1">
+        <li class="c1"><span class="c3">Visibility of System Status</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-1 start" start="1">
+        <li class="c0"><span class="c3">Title at top defines what unit supergroup the user has selected</span></li>
+        <li class="c0"><span class="c3">Radio buttons and labels above input tell the user what unit they have
+            selected</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-0" start="2">
+        <li class="c1"><span class="c3">Match between system and real world</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-1 start" start="1">
+        <li class="c0"><span class="c3">Supergroup titles include typical groups like volume, weight, etc. but also
+            common uses such as cooking, that include both units of weight and volume</span></li>
+        <li class="c0"><span class="c3">Small size of text makes it challenging to use/read from a distance - may cause
+            issues if used while cooking, measuring, etc.</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-0" start="3">
+        <li class="c1"><span class="c3">User control and Freedom</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-1 start" start="1">
+        <li class="c0"><span class="c3">Tapping anywhere on a menu that is not a menu option will take the user
+            out</span></li>
+        <li class="c0"><span class="c3">&ldquo;Back&rdquo; arrow on phone will also take user back to main screen</span>
+        </li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-0" start="4">
+        <li class="c1"><span class="c3">Consistency and Standards</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-1 start" start="1">
+        <li class="c0"><span class="c3">Font and color scheme are consistent</span></li>
+        <li class="c0"><span class="c3">&ldquo;Garbage can&rdquo; icon is used to clear input - not 100% clear at first,
+            text label should be included</span></li>
+        <li class="c0"><span class="c3">Menu icons are consistent with commonly used icons, ie &ldquo;Three stacked
+            bars&rdquo;, &ldquo;Three vertical dots&rdquo;</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-0" start="5">
+        <li class="c1"><span class="c3">Error Prevention</span></li>
+        <li class="c1"><span class="c3">Recognition rather than recall</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-1 start" start="1">
+        <li class="c0"><span class="c3">&ldquo;From&rdquo; unit and &ldquo;To&rdquo; unit not clearly titled</span></li>
+        <li class="c0"><span class="c3">Two menus, little indication which one is which</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-0" start="7">
+        <li class="c1"><span class="c3">Flexibility and Efficiency of use</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-1 start" start="1">
+        <li class="c0"><span class="c3">No ability to customize categories - may cause unnecessary menuing to switch
+            between frequent units</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-0" start="8">
+        <li class="c1"><span class="c3">Aesthetic and Minimalist Design</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-1 start" start="1">
+        <li class="c0"><span class="c3">Too much of the page is taken up by potential units. Only a very small area is
+            left to actually view conversion</span></li>
+        <li class="c0"><span class="c3">Two menus are available, one to select unit supergroup and another to select
+            more &ldquo;system removed&rdquo; functions, ie share, about, rate, and a second link to settings.
+            Unclear before use which menu takes the user where</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-0" start="9">
+        <li class="c1"><span class="c3">Help Recognize, Diagnose, Recover Errors</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-1 start" start="1">
+        <li class="c0"><span class="c3">Trying to input in the wrong field gives no indication of it being wrong, other
+            than not letting the user input</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-0" start="10">
+        <li class="c1"><span class="c3">Help and Documentation</span></li>
+      </ol>
+      <ol class="c2 lst-kix_mn6nljkiwruf-1 start" start="1">
+        <li class="c0"><span class="c3">No instructions provided, user must explore to determine some functions</span>
+        </li>
+      </ol>
+      <h3 class="c4" id="h.e3xigahyqnbc"><span class="c5">App 8: Ultimate Unit Converter</span></h3>
+      <p class="c6"><span class="c3">By physphil</span></p>
+      <p class="c6"><span class="c3">Note: appears almost identical in design to App 7. Most analysis is
+          identical.</span>
+      </p>
+      <p class="c6"><span class="c3">&nbsp; &nbsp; &nbsp; 10. Help and Documentation</span></p>
+      <p class="c6"><span class="c3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;a. Upon opening
+          the app for the first time, a popup opens to give instructions to user</span></p>
+      <h3 class="c4" id="h.7mkyumzzorv"><span class="c5">App 9: All-in-One Unit Converter</span></h3>
+      <p class="c6"><span class="c3">By GV Apps</span></p>
+      <p class="c6 c7"><span class="c3"></span></p>
+      <ol class="c2 lst-kix_qbe65nm83jr5-0 start" start="1">
+        <li class="c1"><span class="c3">Visibility of System Status</span></li>
+      </ol>
+      <ol class="c2 lst-kix_qbe65nm83jr5-1 start" start="1">
+        <li class="c0"><span class="c3">Again, selected units and unit supergroup are always visible</span></li>
+        <li class="c0"><span class="c3">Converter type (ie what supergroups are visible) is not visible unless looking
+            in menu</span></li>
+      </ol>
+      <ol class="c2 lst-kix_qbe65nm83jr5-0" start="2">
+        <li class="c1"><span class="c3">Match Between System and Real-World</span></li>
+      </ol>
+      <ol class="c2 lst-kix_qbe65nm83jr5-1 start" start="1">
+        <li class="c0"><span class="c3">Unit names and supergroups are appropriate and recognizable to the relevant
+            users</span></li>
+      </ol>
+      <ol class="c2 lst-kix_qbe65nm83jr5-0" start="3">
+        <li class="c1"><span class="c3">User Control and Freedom</span></li>
+      </ol>
+      <ol class="c2 lst-kix_qbe65nm83jr5-1 start" start="1">
+        <li class="c0"><span class="c3">Menu can be exited by back button or tapping on background screen</span></li>
+        <li class="c0"><span class="c3">Unit supergroup selection be exited in the same way, but on long menus (eg.
+            selecting distance) it covers the entire screen - only way to exit is back button</span></li>
+      </ol>
+      <ol class="c2 lst-kix_qbe65nm83jr5-0" start="4">
+        <li class="c1"><span class="c3">Consistency and Standards</span></li>
+      </ol>
+      <ol class="c2 lst-kix_qbe65nm83jr5-1 start" start="1">
+        <li class="c0"><span class="c3">Single, standard menu button in top-left corner</span></li>
+      </ol>
+      <ol class="c2 lst-kix_qbe65nm83jr5-0" start="5">
+        <li class="c1"><span class="c3">Error Prevention</span></li>
+        <li class="c1"><span class="c3">Recognition over Recall</span></li>
+      </ol>
+      <ol class="c2 lst-kix_qbe65nm83jr5-1 start" start="1">
+        <li class="c0"><span class="c3">Unit switch icon is appropriate, but placement leaves ambiguity as to
+            purpose</span></li>
+        <li class="c0"><span class="c3">Button to select number of decimals is labelled &lsquo;A&rsquo; for Actual Value
+            - not obvious to the average user</span></li>
+        <li class="c0"><span class="c3">Clipboard icon (to copy converted value to clipboard) gives no feedback -
+            function is not immediately clear</span></li>
+      </ol>
+      <ol class="c2 lst-kix_qbe65nm83jr5-0" start="7">
+        <li class="c1"><span class="c3">Flexibility and Efficiency of Use</span></li>
+        <li class="c1"><span class="c3">Aesthetic and Minimalist Design</span></li>
+      </ol>
+      <ol class="c2 lst-kix_qbe65nm83jr5-1 start" start="1">
+        <li class="c0"><span class="c3">Conversion and typing interface are distinct</span></li>
+        <li class="c0"><span class="c3">Occasional intrusive popup ads</span></li>
+      </ol>
+      <ol class="c2 lst-kix_qbe65nm83jr5-0" start="9">
+        <li class="c1"><span class="c3">Help Recognize, Diagnose, Recover Errors</span></li>
+        <li class="c1"><span class="c3">Help and Documentation</span></li>
+      </ol>
+      <ol class="c2 lst-kix_qbe65nm83jr5-1 start" start="1">
+        <li class="c0"><span class="c3">None available</span></li>
+      </ol>
+      <p class="c6 c7"><span class="c3"></span></p>
+      <h2 class="c8" id="h.12opiy3qc1a4"><span class="c9">Part 2B: Error Analysis</span></h2>
+      <h3 class="c4" id="h.1ydqzvi9ozkm"><span class="c5">Justification of Method:</span></h3>
+      <p class="c6"><span class="c3">The application proposed by our group of a mobile device capable of viewing and
+          interpreting numerical values and their associated units, then converting those units to another unit that
+          is requested by the user, is a currently existing technology available in many applications on the market.
+          While on the other hand, our design is not complete nor available for testing. Therefore, our proposed
+          solution will need to improve upon the currently available solutions to compete in the market. &nbsp;And
+          accordingly, our solution must be more user friendly and less prone to errors than other solutions to do so.
+          &nbsp;In order to understand the ways similar applications are used, and misused, we should perform an error
+          analysis of similar applications. &nbsp;Determining the shortcomings of other methods that are available to
+          solve similar problems will provide us with design insights for our solution. Many of these insights may be
+          related to user experience and user interface design. &nbsp;Through performing an error analysis of similar
+          applications we hope to improve the usability of our design.</span></p>
+      <h3 class="c4" id="h.cllbxu1i7apk"><span class="c5">Slips:</span></h3>
+      <ul class="c2 lst-kix_mjbsxlbt1a3n-0 start">
+        <li class="c1"><span class="c3">User mistypes the value</span></li>
+      </ul>
+      <ul class="c2 lst-kix_mjbsxlbt1a3n-1 start">
+        <li class="c0"><span class="c3">Make sure it&rsquo;s easy to change - backspace and clear buttons</span></li>
+      </ul>
+      <ul class="c2 lst-kix_mjbsxlbt1a3n-0">
+        <li class="c1"><span class="c3">User accidently chooses the wrong unit from list</span></li>
+      </ul>
+      <ul class="c2 lst-kix_mjbsxlbt1a3n-1 start">
+        <li class="c0"><span class="c3">Maintain scroll position and highlight current selection to make it easy to
+            find</span></li>
+      </ul>
+      <ul class="c2 lst-kix_mjbsxlbt1a3n-0">
+        <li class="c1"><span class="c3">User may accidentally toggle or change options when they mean to interact with
+            some other element of the interface.</span></li>
+      </ul>
+      <ul class="c2 lst-kix_mjbsxlbt1a3n-1 start">
+        <li class="c0"><span class="c3">Ensure that our option menus are placed well, with adequate spacing, and that it
+            is clear what each button is for upon first glance.</span></li>
+      </ul>
+      <h3 class="c4" id="h.hqmnavohnip1"><span class="c5">Mistakes:</span></h3>
+      <ul class="c2 lst-kix_2n9tnibm13qe-0 start">
+        <li class="c1"><span class="c3">User gets an incorrect conversion due to choosing the wrong units</span></li>
+      </ul>
+      <ul class="c2 lst-kix_2n9tnibm13qe-1 start">
+        <li class="c0"><span class="c3">Make sure units are clearly displayed - potentially display formula as
+            well</span></li>
+      </ul>
+      <ul class="c2 lst-kix_2n9tnibm13qe-0">
+        <li class="c1"><span class="c3">User gets an unintended result due to mistakenly pressing the wrong
+            button</span></li>
+      </ul>
+      <ul class="c2 lst-kix_2n9tnibm13qe-1 start">
+        <li class="c0"><span class="c3">Make sure buttons are clearly labelled </span></li>
+      </ul>
+      <ul class="c2 lst-kix_2n9tnibm13qe-0">
+        <li class="c1"><span class="c3">User can&rsquo;t change settings from their current screen/task location</span>
+        </li>
+      </ul>
+      <ul class="c2 lst-kix_2n9tnibm13qe-1 start">
+        <li class="c0"><span class="c3">Make menu clearly accessible at all times</span></li>
+      </ul>
+      <ul class="c2 lst-kix_2n9tnibm13qe-0">
+        <li class="c1"><span class="c3">User might not position camera correctly, causing camera conversion to be
+            unsuccessful or inaccurate</span></li>
+      </ul>
+      <ul class="c2 lst-kix_2n9tnibm13qe-1 start">
+        <li class="c0"><span class="c3">Could place guidelines in camera viewfinder for the users to position the text
+            they want to convert</span></li>
+      </ul>
+      <p class="c6 c7"><span class="c3"></span></p>
+      <p class="c6 c7"><span class="c3"></span></p>
+      <h3 class="c4" id="h.xbcnd9i07ifu"><span class="c5">Summary of Research:</span></h3>
+      <p class="c6"><span class="c3">It would seem that based on the above research the most important places to focus
+          design attention to are:</span></p>
+      <ul class="c2 lst-kix_h1s1ogoag13h-0 start">
+        <li class="c1"><span class="c3">Maximizing the number of units available for conversion (both input and output),
+            for ease of access.</span></li>
+        <li class="c1"><span class="c3">The camera feature should work just as fast or faster for the human user to take
+            out the mobile device and capture the image than just sitting at the nearest computer and typing it into
+            Google.</span></li>
+        <li class="c1"><span class="c3">The application should maximize compatibility with Android devices.</span></li>
+        <li class="c1"><span class="c3">The application should have a minimal disk, RAM, and CPU usage</span></li>
+        <li class="c1"><span class="c3">The application should categorize the units for input and output into
+            temperature, distance, mass, etc. categories.</span></li>
+      </ul>
+      <p class="c6 c7"><span class="c3"></span></p>
+    </body>
   </div>
 
 </main>
@@ -55,4 +415,5 @@
 <script>window.jQuery || document.write('<script src="../vendor/jquery/jquery-3.3.1.slim.min.js"><\/script>')</script>
 <script src="../vendor/bootstrap/bootstrap.bundle.js"></script>
 </body>
+
 </html>
